@@ -3,17 +3,25 @@
 		<div class="user">
 			<img src="http://hdjirdeh.github.io/public/me.jpg">
 		</div>
+		<div>asdfasdf</div>
 		<div class="heading-user">
 			<strong>Houssein Djirdeh</strong>
 			<br/>
 			<small>@hdjirdeh</small>
 		</div>
 	</header>
-	<input #newContact class="add-contact" placeholder="Add Contact"
+	<input #newContact class="add-contact" placeholder="Add Contacts"
 	      (keyup.enter)="addContact(newContact.value); newContact.value='' ">
 	<ul class="contact-list">
 	  <li *ngFor="let contact of store.contacts">
 	  	<contact [contact]="contact"></contact>
 	  </li>
 	</ul>
+	
+	<div *ngFor="let contact of something">
+		<social-media-link>this other</social-media-link>
+	</div>
+
+	<social-media-link>this other</social-media-link>
+	<div>1155dfdf955159dfdffffffff</div>
 </div>

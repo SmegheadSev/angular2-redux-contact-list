@@ -12,10 +12,15 @@ var core_1 = require('@angular/core');
 var contact_store_1 = require('./contact-store');
 var contact_1 = require('./contact');
 var actions_1 = require('./actions');
+var userList_1 = require('./UserList/userList');
+var socialMediaLink_1 = require('./SocialMediaLink/socialMediaLink');
 var ContactList = (function () {
     function ContactList(store) {
         this.store = store;
         this.contactID = 0;
+        this.something = [];
+        this.something.push(new socialMediaLink_1.SocialMediaLink());
+        this.something.push(new socialMediaLink_1.SocialMediaLink());
     }
     ContactList.prototype.addContact = function (contact) {
         this.store.dispatch(actions_1.addContact(contact, this.contactID++));
@@ -25,7 +30,7 @@ var ContactList = (function () {
             selector: 'contact-list',
             templateUrl: 'app/contact-list.html',
             styleUrls: ['app/contact-list.css'],
-            directives: [contact_1.default]
+            directives: [contact_1.default, userList_1.UserList, socialMediaLink_1.SocialMediaLink]
         }), 
         __metadata('design:paramtypes', [contact_store_1.ContactStore])
     ], ContactList);

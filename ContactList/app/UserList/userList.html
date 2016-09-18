@@ -1,0 +1,18 @@
+<div id="container">
+	<header>
+		<div class="user">
+			<img src="http://hdjirdeh.github.io/public/me.jpg">
+		</div>
+		<div class="heading-user">
+			<strong>Houssein Djirdeh</strong>
+			<br/>
+			<small>@hdjirdeh</small>
+		</div>
+	</header>
+	<input #newUser class="add-user" placeholder="Add User" (keyup.enter)="addUser(newUser.value); newUser.value='' "/>
+	<ul class="user-list">
+	  <li *ngFor="let user of store.users">
+	  	<user [user]="user"></user>
+	  </li>
+	</ul>
+</div>

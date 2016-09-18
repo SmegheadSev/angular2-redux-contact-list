@@ -1,0 +1,13 @@
+<div class="user-container">
+	<i class="fa fa-user fa-2x user-icon"></i>
+	<div class="user-info">
+		<h3 class="heading--name">{{ user.name }}</h3>
+		<div class="user-item"><i class="fa fa-phone"></i> 647-XXX-XXXX</div>
+	</div>
+	<button class="user-action" (click)="starUser(user)">
+		<i class="fa fa-2x" [class.fa-star]="user.star" [class.fa-star-o]="!user.star"></i>
+	</button>
+	<button class="user-action" (click)="removeUser(user)">
+		<i class="fa fa-trash fa-2x"></i>
+	</button>
+</div>

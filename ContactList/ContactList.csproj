@@ -100,6 +100,11 @@
     <Content Include="app\contact-list.html" />
     <Content Include="app\contact.css" />
     <Content Include="app\contact.html" />
+    <Content Include="app\SocialMediaLink\socialMediaLink.html" />
+    <Content Include="app\UserList\user.css" />
+    <Content Include="app\UserList\user.html" />
+    <Content Include="app\UserList\userList.css" />
+    <Content Include="app\UserList\userList.html" />
     <Content Include="contact-list.gif" />
     <Content Include="index.html" />
     <Content Include="main.css" />
@@ -133,10 +138,16 @@
     <TypeScriptCompile Include="app\contact.ts" />
     <TypeScriptCompile Include="app\main.ts" />
     <TypeScriptCompile Include="app\reducer.ts" />
+    <TypeScriptCompile Include="app\SocialMediaLink\socialMediaLink.ts" />
+    <TypeScriptCompile Include="app\UserList\userActions.ts" />
+    <TypeScriptCompile Include="app\UserList\userStore.ts" />
+    <TypeScriptCompile Include="app\UserList\user.ts" />
+    <TypeScriptCompile Include="app\UserList\userList.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
