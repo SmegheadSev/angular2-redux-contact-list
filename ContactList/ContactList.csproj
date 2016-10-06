@@ -138,6 +138,7 @@
     <TypeScriptCompile Include="app\contact.ts" />
     <TypeScriptCompile Include="app\main.ts" />
     <TypeScriptCompile Include="app\reducer.ts" />
+    <TypeScriptCompile Include="app\Review\review.ts" />
     <TypeScriptCompile Include="app\SocialMediaLink\socialMediaLink.ts" />
     <TypeScriptCompile Include="app\UserList\userActions.ts" />
     <TypeScriptCompile Include="app\UserList\userStore.ts" />

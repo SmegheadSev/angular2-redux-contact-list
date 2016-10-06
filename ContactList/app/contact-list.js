@@ -14,6 +14,7 @@ var contact_1 = require('./contact');
 var actions_1 = require('./actions');
 var userList_1 = require('./UserList/userList');
 var socialMediaLink_1 = require('./SocialMediaLink/socialMediaLink');
+var review_1 = require('./Review/review');
 var ContactList = (function () {
     function ContactList(store) {
         this.store = store;
@@ -21,6 +22,11 @@ var ContactList = (function () {
         this.something = [];
         this.something.push(new socialMediaLink_1.SocialMediaLink());
         this.something.push(new socialMediaLink_1.SocialMediaLink());
+        this.newReviews = [];
+        this.newReviews.push(new review_1.Review()); //'sometesting', 5));
+        this.otherReviews = [];
+        this.otherReviews.push(new review_1.otherReview(4));
+        this.otherReviews.push(new review_1.otherReview(5));
     }
     ContactList.prototype.addContact = function (contact) {
         this.store.dispatch(actions_1.addContact(contact, this.contactID++));
@@ -30,7 +36,7 @@ var ContactList = (function () {
             selector: 'contact-list',
             templateUrl: 'app/contact-list.html',
             styleUrls: ['app/contact-list.css'],
-            directives: [contact_1.default, userList_1.UserList, socialMediaLink_1.SocialMediaLink]
+            directives: [contact_1.default, userList_1.UserList, socialMediaLink_1.SocialMediaLink, review_1.Review],
         }), 
         __metadata('design:paramtypes', [contact_store_1.ContactStore])
     ], ContactList);
