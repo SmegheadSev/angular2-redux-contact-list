@@ -31,7 +31,6 @@ C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list\ContactList\bin\Mi
 C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list\ContactList\obj\Debug\ContactList.dll
 C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list\ContactList\obj\Debug\ContactList.pdb
 C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list\ContactList\obj\Debug\ContactList.csprojResolveAssemblyReference.cache
-C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list - Copy\ContactList\obj\Debug\ContactList.csprojResolveAssemblyReference.cache
 C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list - Copy\ContactList\obj\Debug\ContactList.dll
 C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list - Copy\ContactList\obj\Debug\ContactList.pdb
 C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list - Copy\ContactList\bin\ApplicationInsights.config
