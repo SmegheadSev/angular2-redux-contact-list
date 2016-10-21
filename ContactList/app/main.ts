@@ -1,5 +1,12 @@
-import { bootstrap }    from '@angular/platform-browser-dynamic';
-import { ContactList } from './contact-list';
-import { ContactStore } from './contact-store';
+// main entry point
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { AppModule } from './app.module';
 
-bootstrap(ContactList, [ContactStore]);
+platformBrowserDynamic().bootstrapModule(AppModule);
+
+
+/*
+Copyright 2016 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/

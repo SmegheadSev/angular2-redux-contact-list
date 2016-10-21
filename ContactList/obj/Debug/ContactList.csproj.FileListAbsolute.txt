@@ -31,3 +31,36 @@ C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list\ContactList\bin\Mi
 C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list\ContactList\obj\Debug\ContactList.dll
 C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list\ContactList\obj\Debug\ContactList.pdb
 C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list\ContactList\obj\Debug\ContactList.csprojResolveAssemblyReference.cache
+C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list - Copy\ContactList\obj\Debug\ContactList.csprojResolveAssemblyReference.cache
+C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list - Copy\ContactList\obj\Debug\ContactList.dll
+C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list - Copy\ContactList\obj\Debug\ContactList.pdb
+C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list - Copy\ContactList\bin\ApplicationInsights.config
+C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list - Copy\ContactList\bin\roslyn\csc.exe
+C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list - Copy\ContactList\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list - Copy\ContactList\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list - Copy\ContactList\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list - Copy\ContactList\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list - Copy\ContactList\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list - Copy\ContactList\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list - Copy\ContactList\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list - Copy\ContactList\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list - Copy\ContactList\bin\roslyn\vbc.exe
+C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list - Copy\ContactList\bin\roslyn\VBCSCompiler.exe
+C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list - Copy\ContactList\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list - Copy\ContactList\bin\ContactList.dll.config
+C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list - Copy\ContactList\bin\ContactList.dll
+C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list - Copy\ContactList\bin\ContactList.pdb
+C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list - Copy\ContactList\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list - Copy\ContactList\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list - Copy\ContactList\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list - Copy\ContactList\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list - Copy\ContactList\bin\Microsoft.AI.Web.dll
+C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list - Copy\ContactList\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list - Copy\ContactList\bin\Microsoft.ApplicationInsights.dll
+C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list - Copy\ContactList\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list - Copy\ContactList\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list - Copy\ContactList\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list - Copy\ContactList\bin\Microsoft.AI.Web.xml
+C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list - Copy\ContactList\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list - Copy\ContactList\bin\Microsoft.ApplicationInsights.xml
+C:\Users\smegheadsev\Source\Repos\angular2-redux-contact-list - Copy\ContactList\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml

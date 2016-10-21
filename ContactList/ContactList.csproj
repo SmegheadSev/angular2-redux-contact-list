@@ -96,15 +96,16 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app\contact-list.css" />
-    <Content Include="app\contact-list.html" />
-    <Content Include="app\contact.css" />
-    <Content Include="app\contact.html" />
-    <Content Include="app\SocialMediaLink\socialMediaLink.html" />
-    <Content Include="app\UserList\user.css" />
-    <Content Include="app\UserList\user.html" />
-    <Content Include="app\UserList\userList.css" />
-    <Content Include="app\UserList\userList.html" />
+    <Content Include="a2docs.css" />
+    <Content Include="app\app.component.css" />
+    <Content Include="app\dashboard.component.css" />
+    <Content Include="app\dashboard.component.html" />
+    <Content Include="app\hero-detail.component.css" />
+    <Content Include="app\hero-detail.component.html" />
+    <Content Include="app\hero-search.component.css" />
+    <Content Include="app\hero-search.component.html" />
+    <Content Include="app\heroes.component.css" />
+    <Content Include="app\heroes.component.html" />
     <Content Include="contact-list.gif" />
     <Content Include="index.html" />
     <Content Include="main.css" />
@@ -113,8 +114,10 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="package.json" />
+    <Content Include="styles.css" />
     <Content Include="tsconfig.json" />
     <Content Include="typings.json" />
+    <Content Include="tsconfig-aot.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -132,23 +135,27 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="app\actions.ts" />
-    <TypeScriptCompile Include="app\contact-list.ts" />
-    <TypeScriptCompile Include="app\contact-store.ts" />
-    <TypeScriptCompile Include="app\contact.ts" />
-    <TypeScriptCompile Include="app\main.ts" />
-    <TypeScriptCompile Include="app\reducer.ts" />
-    <TypeScriptCompile Include="app\Review\review.ts" />
-    <TypeScriptCompile Include="app\SocialMediaLink\socialMediaLink.ts" />
-    <TypeScriptCompile Include="app\UserList\userActions.ts" />
-    <TypeScriptCompile Include="app\UserList\userStore.ts" />
-    <TypeScriptCompile Include="app\UserList\user.ts" />
-    <TypeScriptCompile Include="app\UserList\userList.ts" />
-  </ItemGroup>
-  <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <TypeScriptCompile Include="app\app-routing.module.ts" />
+    <TypeScriptCompile Include="app\app.component.ts" />
+    <TypeScriptCompile Include="app\app.module.ts" />
+    <TypeScriptCompile Include="app\dashboard.component.ts" />
+    <TypeScriptCompile Include="app\hero-detail.component.ts" />
+    <TypeScriptCompile Include="app\hero-search.component.ts" />
+    <TypeScriptCompile Include="app\hero-search.service.ts" />
+    <TypeScriptCompile Include="app\hero.service.ts" />
+    <TypeScriptCompile Include="app\hero.ts" />
+    <TypeScriptCompile Include="app\heroes.component.ts" />
+    <TypeScriptCompile Include="app\in-memory-data.service.ts" />
+    <TypeScriptCompile Include="app\main-aot.ts" />
+    <TypeScriptCompile Include="app\main.ts" />
+    <TypeScriptCompile Include="app\rxjs-extensions.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="aot\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
