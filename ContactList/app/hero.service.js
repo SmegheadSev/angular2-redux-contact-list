@@ -28,6 +28,18 @@ var HeroService = (function () {
             .then(function (heroes) { return heroes.find(function (hero) { return hero.id === id; }); });
     };
     HeroService.prototype.delete = function (id) {
+        var body = 'username=myusername?password=mypassword';
+        var headers = new http_1.Headers();
+        headers.append('Content-Type', 'application/x-www-form-urlencoded');
+        this.http
+            .post('/api/Account/Logout', body, {
+            headers: headers
+        })
+            .subscribe(function (data) {
+            alert('ok');
+        }, function (error) {
+            console.log(JSON.stringify(error.json()));
+        });
         var url = this.heroesUrl + "/" + id;
         return this.http.delete(url, { headers: this.headers })
             .toPromise()

@@ -26,6 +26,23 @@ export class HeroService {
   }
 
   delete(id: number): Promise<void> {
+
+		var body = 'username=myusername?password=mypassword';
+		var headers = new Headers();
+		headers.append('Content-Type', 'application/x-www-form-urlencoded');
+
+		this.http
+			.post('/api/Account/Logout',
+			body, {
+				headers: headers
+			})
+			.subscribe(data => {
+				alert('ok');
+			}, error => {
+				console.log(JSON.stringify(error.json()));
+			});
+
+
     const url = `${this.heroesUrl}/${id}`;
     return this.http.delete(url, {headers: this.headers})
       .toPromise()
