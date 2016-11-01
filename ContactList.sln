@@ -3,11 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactList", "ContactList\ContactList.csproj", "{E0339348-2DDD-47F7-95D5-7A77BF8B2D4F}"
-	ProjectSection(ProjectDependencies) = postProject
-		{43077790-8D37-46BE-B8BD-92F5FFA6EDEF} = {43077790-8D37-46BE-B8BD-92F5FFA6EDEF}
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebBR", "WebBR\WebBR.csproj", "{43077790-8D37-46BE-B8BD-92F5FFA6EDEF}"
 EndProject
 Global
@@ -16,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E0339348-2DDD-47F7-95D5-7A77BF8B2D4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E0339348-2DDD-47F7-95D5-7A77BF8B2D4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E0339348-2DDD-47F7-95D5-7A77BF8B2D4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E0339348-2DDD-47F7-95D5-7A77BF8B2D4F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{43077790-8D37-46BE-B8BD-92F5FFA6EDEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{43077790-8D37-46BE-B8BD-92F5FFA6EDEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43077790-8D37-46BE-B8BD-92F5FFA6EDEF}.Release|Any CPU.ActiveCfg = Release|Any CPU

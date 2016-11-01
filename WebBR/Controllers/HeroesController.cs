@@ -15,7 +15,7 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OAuth;
 using WebBR.Models;
 using WebBR.Providers;
-using WebBR.Results;
+//using WebBR.Results;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Linq;
 using System.Web.Script.Serialization;
